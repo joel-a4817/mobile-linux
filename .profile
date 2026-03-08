@@ -12,4 +12,5 @@ Cp() {
   rm -rf ~/.local/share/calcurse/personal.ics
   cd ~/.local/share/calcurse
   calcurse -x > personal.ics
+  echo "personal.ics merge complete"
 }
