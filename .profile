@@ -8,3 +8,8 @@ Cs() {
   cd ~/.local/share/calcurse
   calcurse -x > personal.ics
 }
+Cp() {
+  rm -rf ~/.local/share/calcurse/personal.ics
+  cd ~/.local/share/calcurse
+  calcurse -x > personal.ics
+}
